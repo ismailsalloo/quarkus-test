@@ -1,0 +1,7 @@
+test:
+    quarkus:
+        environments:
+            localhost:
+                ~: localhost
+                host: myserverHost
+                port: 1000
